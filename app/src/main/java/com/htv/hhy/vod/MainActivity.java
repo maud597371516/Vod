@@ -52,6 +52,9 @@ public class MainActivity extends FragmentActivity {
         fragments.add(hot3);
     }
 
+    /**
+     * 初始化控件
+     */
     private void initView() {
         back_layout = (LinearLayout) findViewById(R.id.back_layout);
 
